@@ -1,0 +1,4 @@
+https://github.com/jvtrigueros/matrixMultiplication
+$	/opt/mpich2/gnu/bin/mpicc -o mpi_hello_hostname	mpi_hello_hostname.c		
+
+ $	/opt/mpich2/gnu/bin/mpirun -np	32 -f hostfile.mpich ./mpi_hello_hostname
